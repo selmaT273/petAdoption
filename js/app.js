@@ -53,9 +53,10 @@ var parentElement = document.getElementById('kittenProfiles');
 var article = document.createElement('article');
 parentElement.appendChild(article);
 
-//create h2
+//create h2va
 
 var h2 = document.createElement('h2');
+h2.textContent = 'Please adopt me, my name is ' + petOne.name;
 article.appendChild(h2);
 
 
@@ -76,7 +77,7 @@ article.appendChild(petParagraph);
 var petUl = document.createElement('ul');
 article.appendChild(petUl);
 
-for (var i = 0; i < petOne.interests; i++){
+for (var i = 0; i < petOne.interests.lengtfh; i++){
   var petLi = document.createElement('li');
   petLi.textContent = petOne.interests[i];
   petUl.appendChild(petLi);

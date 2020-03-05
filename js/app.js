@@ -92,7 +92,7 @@ Pet.prototype.getInterests = function(){
 
 //create some DOM elements then render them to the index
 Pet.prototype.render = function(){
-  var parentElement = document.getElementById('kittenProfiles');
+//   var parentElement = document.getElementById('kittenProfiles');
 
   //   var article = document.createElement('article');
   //   parentElement.appendChild(article);

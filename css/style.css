@@ -1,4 +1,72 @@
 table {
-    border: solid black;
+    text-align: center;
+    margin-left: 60px;
+    clear: both;
+    float: left;
+    background-color: lightblue;
 }
 
+thead {
+    background-color: lightgray;
+}
+
+th {
+    padding 35px;
+    font-size: 25px;
+}
+
+td {
+    border: 5px solid blueviolet;
+    padding: 25px, 100px, 15px, 25px;
+    color: white;
+    font-size: 22px;
+}
+
+#new-pets {
+    margin-left: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#new-pets fieldset {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
+main {
+    background-color: cornsilk;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+}
+
+article {
+    width: 375px;
+    height: 500px;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 10px;
+    margin: 25px;
+    font-size: 12px;
+    padding: 0;
+    float: left;
+}
